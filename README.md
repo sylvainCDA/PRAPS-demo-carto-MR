@@ -1,7 +1,8 @@
 # carto-iram
 prochaines étapes :
 - cluster en bleu
-- geotiff en local
+- geotiff en local?
+- afficher des tuiles vectorielles et les styliser!
 - outil de recherche marqueur
 - geocodage
 
@@ -61,6 +62,16 @@ swipemap leaflet :
 https://github.com/phloose/leaflet-compare --> https://phloose.github.io/leaflet-compare/
 geotiff : 
 https://github.com/stuartmatthews/leaflet-geotiff
+AFFICHER DES FONDS DE PLAN HORS LIGNE : https://stackoverflow.com/questions/43743097/showing-an-offline-osm-map-file-suggestion-an-mb-tiles-file-with-js-library
+Openmaptiles and leaflet : https://openmaptiles.org/docs/website/leaflet/
+
+
+autres pistes :
+---------------------
+wms to tiles : https://github.com/lmikolajczak/wms-tiles-downloader
+vector tiles : https://github.com/klokantech/vector-tiles-sample
+télécharger des mbtiles : https://data.maptiler.com/downloads/africa/
+
 
 PLUGIN leaflet installés : 
 clustering : https://github.com/Leaflet/Leaflet.markercluster
@@ -86,3 +97,5 @@ legende maplibre :
 mémo :
 * EPSG 4326 : WGS84 (elipsoide), lat/lon
 * ESPG 3857 : WGS84/Web mercator, projection x y
+
+MVT ou PBF??
