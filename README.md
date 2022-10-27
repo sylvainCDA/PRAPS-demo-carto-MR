@@ -6,7 +6,11 @@ prochaines étapes :
 - outil de recherche marqueur
 - geocodage
 
-
+Server http :
+(installer python)
+cd C:\Users\scedat\Desktop\PRAPS_hydrogéol\_GIS_DATA\_Outils-carto-demo-MR\Leaflet_v2
+python -m http.server
+(ou python -m http.server 7800) pour utiliser le port 7800 au lieu du 8000
 
 -------------------
 qgis : editer les geométries et les exporter en geojson
@@ -31,9 +35,9 @@ outil hydrogeol :
 
 processus : 
 -------------
-zonage et poi sur google earth
+zonage et poi sur google earth / qgis
 retravail sur qgis : + données attributaires
-export gejson
+export geojson
 encodage json ou hebergement github ou dossier local
 librairie mapbox-gl-leaflet pour utiliser leaflet et tous ses plugins + maplibre pour les tuiles vectorielles
 
@@ -71,6 +75,9 @@ autres pistes :
 wms to tiles : https://github.com/lmikolajczak/wms-tiles-downloader
 vector tiles : https://github.com/klokantech/vector-tiles-sample
 télécharger des mbtiles : https://data.maptiler.com/downloads/africa/
+charger geojson : https://stackoverflow.com/questions/66355293/leaflet-how-to-fetch-geojson-from-url-and-pass-it-to-l-geojson
+charger des geojson, shapefiles à la volée : 
+https://github.com/calvinmetcalf/leaflet.shapefile --> http://leaflet.calvinmetcalf.com
 
 
 PLUGIN leaflet installés : 
